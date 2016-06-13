@@ -1,0 +1,610 @@
+/*
+	Global Styling ------------------------------------------------------------------------------------
+*/
+html, body {
+	width: 100%;
+	height: 100%;
+	font-size:14px;
+	font-family:'Open Sans','arial';
+	line-height:23px;
+	font-weight:400;
+	color: #000;
+	background-color: #FFF;
+}
+
+i {
+  cursor: default;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: all .75s;
+  -moz-transition: all .75s;
+  transition: all .75s;
+}
+
+a:hover,
+a:focus {
+  color: #086c54;
+  text-decoration: none;
+}
+/*
+	Global Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Navbar Styling ------------------------------------------------------------------------------------
+*/
+i,
+i:hover {
+  cursor: pointer;
+}
+
+.navbar a,
+.navbar-default .navbar-header .navbar-brand {
+  color: #FFF;
+}
+
+.navbar,
+.collapsed,
+.navbar-header,
+.navbar-right-links,
+.navbar .navbar-default {
+  border: none;
+  background-color: #086c54;
+}
+
+.navbar {
+  border-top: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+}
+
+.navbar a:hover,
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar a:focus,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #086c54;
+  background-color: #FFF;
+}
+
+.navbar-left-links {
+	font-size: 20px;
+    margin-left: 0;
+}
+
+.navbar-left-links li {
+    display: inline-block;
+}
+
+.navbar-left-links li:last-child {
+    margin-right: 15px;
+}
+
+.navbar-left-links li a {
+    padding: 13px;
+    margin-right: -3px;
+    min-height: 50px;
+}
+
+.navbar-left-links .dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-left-links .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-left-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.navbar-left-links .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-right-links {
+	font-size: 18px;
+    margin-right: 0;
+}
+
+.navbar-right-links li {
+    display: inline-block;
+}
+
+.navbar-right-links li:last-child {
+    margin-right: 15px;
+}
+
+.navbar-right-links li a {
+    padding: 13px;
+    min-height: 50px;
+}
+
+.dropdown-menu {
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+.navbar-right-links .dropdown-menu li {
+    display: block;
+}
+
+.navbar-right-links .dropdown-menu li:hover,
+.navbar-right-links .dropdown-menu li a:hover,
+.navbar-right-links .dropdown-menu li:focus
+.navbar-right-links .dropdown-menu li a:focus {
+    color: #FFF;
+    background-color: #086c54;
+}
+
+.navbar-right-links .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-right-links .dropdown-menu li a {
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.navbar-right-links .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-right-links .dropdown-messages,
+.navbar-right-links .dropdown-tasks,
+.navbar-right-links .dropdown-alerts {
+    width: 310px;
+    margin-top: 0px;
+    margin-right: -3px;
+    min-width: 0;
+}
+
+.navbar-right-links .dropdown-messages {
+    margin-left: 5px;
+}
+
+.navbar-right-links .dropdown-tasks {
+    margin-left: -59px;
+}
+
+.navbar-right-links .dropdown-alerts {
+    margin-left: -123px;
+}
+
+.navbar-right-links .dropdown-user {
+    right: 0;
+    left: auto;
+    margin-top: 0px;
+    margin-right: -3px;
+}
+/*
+	Navbar Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Content Styling ------------------------------------------------------------------------------------
+*/
+.body {
+  background-color: #FFF;
+}
+
+#header li {
+	font-size: 16px;
+}
+
+.second-level-button,
+.third-level-button,
+.second-level-button i,
+.third-level-button i {
+  cursor: pointer;
+}
+
+hr {
+   border: none;
+   height: 1px;
+   background-color: #a8a8a8!important;
+}
+
+.box {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 25px 0;
+  max-width: 650px;
+}
+
+.box > i {
+  cursor: pointer;
+}
+
+.box:hover {
+  color: #FFF;
+  background-color: #086c54;
+  -webkit-transition: all .75s;
+  -moz-transition: all .75s;
+  transition: all .75s;
+}
+
+.box:hover > .text-primary {
+  color: #FFF;
+  -webkit-transition: all .75s;
+  -moz-transition: all .75s;
+  transition: all .75s;
+}
+
+.col-lg-12 > p {
+  font-family: 'Open Sans','arial';
+  font-size: 18px;
+}
+
+.box > .text-muted {
+  color: #FFF;
+}
+/*
+	Content Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Forums Table Styling ------------------------------------------------------------------------------------
+*/
+.table {
+	border: none;
+}
+
+.table tbody > tr:nth-child(even) {
+	background-color: #EEE;
+}
+
+.table tbody > tr > td:first-child {
+	vertical-align: top;
+	text-align: center;
+}
+
+.table thead > tr > th:nth-child(2) {
+	text-align: center;
+	width: 85px;
+}
+
+.table thead > tr > th:nth-child(3),
+.table tbody > tr > td:nth-child(3) {
+	text-align: center;
+	width: 85px;
+}
+
+.table thead > tr > th:nth-child(4),
+.table tbody > tr > td:nth-child(4) {
+	text-align: center;
+	width: 85px;
+}
+
+.table thead > tr > th:nth-child(5),
+.table tbody > tr > td:nth-child(5) {
+	vertical-align: center;
+	text-align: left;
+	width: 250px;
+	border-right: 0;
+}
+/*
+	Forums Table Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Top Label Styling ------------------------------------------------------------------------------------
+*/
+.table thead > tr > th {
+	border-right: 2px solid #086c54;
+	border-bottom: 1px solid #086c54;
+}
+
+.table thead > tr > th > a > i {
+	cursor: pointer;
+	color: #FFF;
+	padding-right: 5px;
+}
+
+.table thead > tr > th > a > i:hover {
+	color: #000;
+}
+
+.top-label {
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+	background: #086c54;
+	z-index: 1;
+}
+
+.top-label tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+.top-label td {
+	padding: 0px;
+	margin: 0px;
+}
+/*
+	Top Label Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Body Styling ------------------------------------------------------------------------------------
+*/
+.table tbody > tr > td {
+     vertical-align: middle;
+		 height: 100%;
+		 border-right: 1px solid #DDDDDD;
+	 	 border-bottom: 1px solid #DDDDDD;
+}
+
+.body {
+	padding: 0px;
+	margin: 0px;
+	background: #FFF;
+	box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px -5px 4px rgba(0,0,0, 0.4);
+	-webkit-box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px 0px 4px rgba(0,0,0, 0.4);
+	-moz-box-shadow: inset 2px 5px 4px rgba(0,0,0, 0.4), inset -2px 0px 4px rgba(0,0,0, 0.4);
+}
+
+.body tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+.body tr td:first-child {
+	width: 35px;
+}
+
+.body td {
+	padding: 0px;
+	margin: 0px;
+}
+
+.body p {
+	font-size: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+/*
+	Body Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Bottom Label Styling ------------------------------------------------------------------------------------
+*/
+.bottom-label {
+	text-align: center;
+	color: #FFF;
+	padding: 0px;
+	margin: 0px;
+	background: #086c54;
+	z-index: 1;
+}
+
+.bottom-label  tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+.bottom-label td {
+	padding: 0px;
+	margin: 0px;
+}
+
+.bottom-label td a {
+	color: #FFF;
+}
+
+.bottom-label td a:hover {
+	color: #000;
+}
+
+.row-1 {
+	width: 65%;
+}
+
+.row-2 {
+	width: 15%;
+}
+
+.row-3 {
+	width: 15%;
+}
+/*
+	Bottom Label Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Forums Form Styling ------------------------------------------------------------------------------------
+*/
+section.forums {
+    background-color: #FFF;
+}
+
+section.forums .section-heading {
+    color: #000;
+}
+
+section.forums .form-group {
+    margin-bottom: 25px;
+}
+
+section.forums .form-group input,
+section.forums .form-group textarea {
+    color: #000;
+    padding: 20px;
+    border-color: #086c54;
+}
+
+section.forums .form-group input.form-control {
+    height: auto;
+}
+
+section.forums .form-group textarea.form-control {
+    height: 236px;
+}
+
+section.forums .form-control:hover {
+    border-color: #FFF;
+    box-shadow: none;
+		-webkit-transition: all .75s;
+	  -moz-transition: all .75s;
+	  transition: all .75s;
+}
+
+section.forums .form-control:focus {
+    border-color: #086c54;
+    box-shadow: none;
+		-webkit-transition: all .75s;
+	  -moz-transition: all .75s;
+	  transition: all .75s;
+}
+
+section.forums::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: 'Open Sans','arial';
+    font-weight: 400;
+    color: #DDD;
+}
+
+section.forums:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: 'Open Sans','arial';
+    font-weight: 400;
+    color: #DDD;
+}
+
+section.forums::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: 'Open Sans','arial';
+    font-weight: 400;
+    color: #DDD;
+}
+
+section.forums:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: 'Open Sans','arial';
+    font-weight: 400;
+    color: #DDD;
+}
+
+section.forums .text-danger {
+    color: #e74c3c;
+}
+
+section.forums .btn-xl {
+    padding: 20px 40px;
+	margin-bottom: 50px;
+    border-color: #086c54;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Open Sans','arial';
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+    background-color: #086c54;
+}
+
+section.forums .btn-xl:hover,
+section.forums .btn-xl:focus,
+section.forums .btn-xl:active,
+section.forums .btn-xl.active {
+    border-color: #FFF;
+    color: #FFF;
+    background-color: #086c54;
+		-webkit-transition: all .75s;
+	  -moz-transition: all .75s;
+	  transition: all .75s;
+}
+/*
+	Forums Form Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Footer Styling ------------------------------------------------------------------------------------
+*/
+footer {
+  text-align: center;
+  padding: 25px 0px;
+  background-color: #FFF;
+}
+
+footer span.copyright {
+  text-transform: uppercase;
+  text-transform: none;
+  line-height: 40px;
+}
+
+footer ul.quicklinks {
+  text-transform: uppercase;
+  text-transform: none;
+  line-height: 40px;
+  margin-bottom: 0px;
+}
+/*
+	Footer Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Error/Message Styling ------------------------------------------------------------------------------------
+*/
+.flash {
+    position: relative;
+    color: #000;
+	width: 400px;
+	padding: 15px 0px 15px 0px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 4px rgba(0,0,0, 0.4);
+	margin: 0px auto;
+    background: #FFF;
+}
+
+.flash-forum {
+    color: #FFF;
+    background: #086c54;
+}
+/*
+	Error/Message Styling ------------------------------------------------------------------------------------
+*/
+
+/*
+	Extra Styling ------------------------------------------------------------------------------------
+*/
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-primary {
+  color: #086c54;
+}
+
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+div > .divider {
+  padding: 0;
+  margin: 0;
+}
+/*
+	Extra Styling ------------------------------------------------------------------------------------
+*/
